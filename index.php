@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         "amount"      => (int)$amount,
         "addInfo"     => $addInfo,
         "format"      => "text",
-        "template"    => "compact"
+        "template"    => "print"
     ];
 
     // Gọi API tạo QR Code
